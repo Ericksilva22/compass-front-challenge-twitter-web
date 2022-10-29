@@ -47,7 +47,8 @@
   border-radius: 9999px;
   border: none;
   color: #ffffff;
-  margin: 10%;
+  margin-top: 10%;
+  margin-left: 4rem;
 }
 
 .aside-profile{
@@ -55,7 +56,8 @@
   margin-top: 4rem;
   align-items: center;
   width: 255px;
-  margin-left: 1rem;
+  margin-left: 4rem;
+  margin-top: 20rem;
 }
 
 .aside-profile-img{
@@ -80,7 +82,6 @@
 
 .aside-profile-icon{
   margin-left: 2rem;
-
 }
 
 /* main */
@@ -100,6 +101,7 @@
 .main__header h1 {
   font-size: 19px;
   font-weight: 700;
+  margin-left: 0.5rem;
 }
 
 .main__section {
@@ -361,4 +363,60 @@
   font-weight: 500;
   font-size: 11px;
   color: #5B7083;
+}
+
+/* footer */
+
+.footer {
+  background-color: #1DA1F2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-titles{
+  margin-left: 15rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+
+}
+
+.footer-titles-don{
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.footer-titles-people{
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.btn-login{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19px;
+  text-align: center;
+  width: 70px;
+  height: 30px;
+  background: #1DA1F2;
+  border-radius: 9999px;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  margin-right: 1rem;
+}
+
+.btn-signup{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19px;
+  text-align: center;
+  width: 73px;
+  height: 30px;
+  background: #FFFFFF;
+  border-radius: 9999px;
+  color:#0F1419;
+  border: 1px solid #FFFFFF;
+  margin-right: 1rem;
 }
