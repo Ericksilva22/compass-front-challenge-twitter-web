@@ -34,6 +34,8 @@
 
 .aside-menu-itens {
   margin-left: 1rem;
+  text-decoration: none;
+  color: #0F1419;
 }
 
 .aside-menu-button{
@@ -64,20 +66,34 @@
   border-radius: 100%;
 }
 
-.aside-profile-text h3{
+.aside-profile-text{
+  margin-left: 0.4rem;
+}
+
+.aside-profile-text-a{
   font-size: 16px;
   font-weight: 700;
   line-height: 19px;
   text-align: left;
-
+  text-decoration: none;
+  color: #0F1419;
 }
 
-.aside-profile-text p{
+.aside-profile-text-a:hover{
+  text-decoration: underline;
+}
+
+.aside-profile-text-p{
   font-size: 16px;
   font-weight: 500;
   line-height: 19px;
   text-align: left;
   color: #5B7083;
+  text-decoration: none;
+}
+
+.aside-profile-text-a:active, .aside-profile-text-p:active {
+  text-decoration: none;
 }
 
 .aside-profile-icon{
@@ -166,16 +182,22 @@
   display: flex;
 }
 
-.section-post-title h3 {
+.section-post-title-h3 {
   font-size: 15px;
   font-weight: 700;
   line-height: 18px;
   letter-spacing: 0em;
   text-align: left;
   margin-right: 1rem;
+  text-decoration: none;
+  color: #0F1419;
 }
 
-.section-post-title span {
+.section-post-title-h3:hover{
+  text-decoration: underline;
+}
+
+.section-post-title-span {
   font-size: 15px;
   font-weight: 500;
   line-height: 18px;
@@ -303,6 +325,8 @@
   line-height: 18px;
   text-align: left;
   padding: 0.2rem 1rem;
+  text-decoration: none;
+  color: #0F1419;
 }
 
 .news-trending{
@@ -334,10 +358,16 @@
   border-radius: 100%;
 }
 
-.follow-data h5{
+.follow-data-a{
   margin-bottom: -0.2rem;
   font-weight: 700;
   font-size: 14px;
+  text-decoration: none;
+  color: #0F1419;
+}
+
+.follow-data-a:active{
+  text-decoration: none;
 }
 
 .follow-data p{
@@ -358,11 +388,12 @@
   border-radius: 9999px;
 }
 
-.terms-service p {
+.terms-service a {
   margin-top: 1rem;
   font-weight: 500;
   font-size: 11px;
   color: #5B7083;
+  text-decoration: none;
 }
 
 /* footer */
@@ -375,7 +406,7 @@
 }
 
 .footer-titles{
-  margin-left: 15rem;
+  margin-left: 18rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 
