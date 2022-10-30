@@ -358,6 +358,10 @@
 
 }
 
+.section-news-titles a{
+  text-decoration: none;
+}
+
 .news-text {
   font-weight: 700;
   font-size: 15px;
@@ -425,6 +429,7 @@
   background: #F7F9FA;
   border: 1px solid #1DA1F2;
   border-radius: 9999px;
+  cursor: pointer;
 }
 
 .terms-service a {
@@ -475,6 +480,7 @@
   color: #FFFFFF;
   border: 1px solid #FFFFFF;
   margin-right: 1rem;
+  cursor: pointer;
 }
 
 .btn-signup{
@@ -489,5 +495,6 @@
   color:#0F1419;
   border: 1px solid #FFFFFF;
   margin-right: 1rem;
+  cursor: pointer;
 }
 
