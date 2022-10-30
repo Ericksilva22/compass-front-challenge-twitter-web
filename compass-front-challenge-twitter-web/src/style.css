@@ -53,6 +53,10 @@
   margin-left: 4rem;
 }
 
+.aside-menu-button:hover{
+  cursor: pointer;
+}
+
 .aside-profile{
   display: flex;
   margin-top: 4rem;
@@ -101,6 +105,7 @@
 }
 
 /* main */
+
 .main{
   border-left: 1px solid #EBEEF0;
   border-right: 1px solid #EBEEF0;
@@ -134,6 +139,19 @@
   height: 4rem;
   border: none;
   margin-left: 1rem;
+  outline: 0;
+}
+
+.main__formulario input::-webkit-input-placeholder{ /* Chrome/opera/Safari */
+  font-weight: 500;
+  font-size: 20px;
+  color: #5B7083;
+}
+
+.main__formulario input::-moz-placeholder{ /* Firefox 19+ */
+  font-weight: 500;
+  font-size: 1rem;
+  color:#5B7083
 }
 
 .main-actions{
@@ -273,13 +291,34 @@
   padding-right: 2rem;
 }
 
-.aside-what input{
+.search{
   width: 310px;
-  height: 35px;
+  height: 38px;
   background: #EBEEF0;
   border-radius: 99999px;
   border: none;
   margin-top: 1rem;
+  padding-left: 2.5rem;
+  outline-color: #1DA1F2;
+  
+}
+
+.search::-webkit-input-placeholder{ /* Chrome/opera/Safari */
+  font-weight: 500;
+  font-size: 1rem;
+  color: #5B7083;
+}
+
+.search::-moz-placeholder{ /* Firefox 19+ */
+  font-weight: 500;
+  font-size: 1rem;
+  color:#5B7083
+}
+
+.search-icon{
+  position: relative;
+  top:-1.8rem;
+  right: -1rem;
 }
 
 .section-news {
@@ -451,3 +490,4 @@
   border: 1px solid #FFFFFF;
   margin-right: 1rem;
 }
+

@@ -61,7 +61,7 @@
           <a class="aside-font aside-menu-itens" href="https://github.com/twitter-web">More</a>
         </div>
 
-        <button class="aside-menu-button">Tweet</button>
+        <button class="aside-menu-button" id="aside-btn-tweet">Tweet</button>
 
         <div class="aside-profile">
           <figure>
@@ -93,7 +93,7 @@
         </figure>
         <div class="form-tweet">
           <form class="main__formulario">
-            <input type="text" placeholder="What's happening?">
+            <input id="post_input" type="text" placeholder="What's happening?">
           </form>
           <div class="main-actions">
             <div class="main-action-img">
@@ -190,7 +190,8 @@
      <aside class="aside">
       <div class="aside-what">
         <form>
-          <input type="search" placeholder="Search Twitter">
+          <input type="search" class="search" placeholder="Search Twitter">
+          <img class="search-icon" src="./public/images/search.svg" alt="search icon">
         </form>
         
         <section class="section-news">
@@ -280,6 +281,6 @@
         <button class="btn-signup">Sign up</button>
       </div>
     </footer>
-     
+    <script type="module" src="./src/main.ts"></script>
   </body>
 </html>
