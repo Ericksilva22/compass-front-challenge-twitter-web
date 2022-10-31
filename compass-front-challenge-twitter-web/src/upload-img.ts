@@ -43,12 +43,17 @@ export function imgPost(): void {
 
     btn_tweet.addEventListener("click", function(e){
 
+        e.preventDefault();
+
         const img = preview_img.firstChild as HTMLElement;
         const text_written = text_tweet.value as string;
-        e.preventDefault();
-        createPost(text_written, img);
 
-        preview_img.style.display = 'none';
-        main_actions.style.width = '255%';    
+        createPost(text_written, img); // call function to create post
+        text_tweet.value = ''; // clear input
+
+        preview_img.style.display = 'none'; //remove preview img on screen
+        main_actions.style.width = '255%';  // fix width for form  
     });
+
+    
 }

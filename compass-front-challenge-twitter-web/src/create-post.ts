@@ -113,6 +113,9 @@ export function createPost(text_written: string, img_tweet:HTMLElement):void {
     const show_thread = document.createElement("a");
     show_thread.classList.add("Show-thread");
     show_thread.setAttribute("href", "https://github.com/twitter-web");
+    const createAText = document.createTextNode('show this thread');
+    show_thread.appendChild(createAText);
+
     div_generic.appendChild(show_thread);
     
 }; 
