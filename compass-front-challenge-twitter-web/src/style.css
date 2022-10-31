@@ -270,6 +270,8 @@
   text-align: left;
   color: #0F1419;
   margin-bottom: 1rem;
+  word-break: break-all;
+  margin-right: 1rem;
 }
 
 .section-post-img {
