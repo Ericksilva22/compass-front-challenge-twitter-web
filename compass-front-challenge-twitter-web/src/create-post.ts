@@ -2,11 +2,11 @@
 
 export function createPost(text_written: string, img_tweet:HTMLElement):void {
 
-    const main = document.querySelector<HTMLElement>(".main")!;
+    const container_post = document.querySelector<HTMLElement>(".container-posts")!;
 
     const section_post = document.createElement("div");
     section_post.classList.add("section-post");
-    main.appendChild(section_post); // add post in main div
+    container_post.appendChild(section_post); // add post in main div
 
     const img_profile = document.createElement("img");
     img_profile.src = "./public/images/Profile Picture.svg";
@@ -25,11 +25,13 @@ export function createPost(text_written: string, img_tweet:HTMLElement):void {
 
     const userName = document.createElement("p");
     const tweet_time = document.createElement("p");
+    
 
-    userName.innerHTML = "Jerome Bell@afonsoinocente";
+    userName.innerHTML = `Jerome Bell<span class="section-post-title-span">@afonsoinocente</span>`;
     userName.classList.add("section-post-title-h3");
 
     tweet_time.innerHTML = "1s";
+    tweet_time.classList.add("section-post-time");
 
     section_post_title.appendChild(userName);
     section_post_title.appendChild(tweet_time);

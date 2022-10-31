@@ -208,6 +208,11 @@
   cursor: pointer;
 }
 
+.container-posts{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
 .section-post {
   border-top: 1px solid #EBEEF0;
   display: flex;
@@ -247,7 +252,7 @@
   color:#5B7083;
 }
 
-.section-post-title p {
+.section-post-time{
   font-size: 15px;
   font-weight: 500;
   line-height: 18px;

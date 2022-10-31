@@ -39,7 +39,7 @@ export const buttonComponent = ({
 };
 
 export default {
-  title: 'Example/Button',
+  title: 'Component/Button',
   argTypes: {
     backgroundColor: { control: 'color' },
     label: { control: 'text' },
