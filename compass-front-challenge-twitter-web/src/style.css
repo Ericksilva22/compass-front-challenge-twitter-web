@@ -205,7 +205,7 @@
   border-radius: 9999px;
   color: #ffffff;
   border: none;
-
+  cursor: pointer;
 }
 
 .section-post {
@@ -521,3 +521,49 @@
   cursor: pointer;
 }
 
+
+/* Stories */
+
+/* button */
+
+.primary {
+  color: white;
+  background-color: #1ea7fd;
+}
+.secondary {
+  color: #1ea7fd;
+  background-color: transparent;
+  border: 1px solid #1ea7fd;
+}
+
+.small {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 19px;
+  text-align: center;
+  width: 77px;
+  height: 39px;
+  border-radius: 9999px;
+  cursor: pointer;
+}
+
+.medium{
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 19px;
+  text-align: center;
+  width: 150px;
+  height: 44px;
+  border-radius: 9999px;
+  cursor: pointer;
+}
+
+.large {
+  font-size: 15px;
+  font-weight: 700;
+  width: 228px;
+  height: 49px;
+  text-align: center;
+  border-radius: 9999px;
+  cursor: pointer;
+}
