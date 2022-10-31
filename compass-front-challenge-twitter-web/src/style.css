@@ -134,6 +134,11 @@
   border-radius: 100%;
 }
 
+.form-tweet{
+  display: flex;
+  flex-direction: column;
+}
+
 .main__formulario input{
   width: 200%;
   height: 4rem;
@@ -151,15 +156,33 @@
 .main__formulario input::-moz-placeholder{ /* Firefox 19+ */
   font-weight: 500;
   font-size: 1rem;
-  color:#5B7083
+  color:#5B7083;
+}
+
+#preview-image {
+  display: none;
+  width: 509px;
+  height: 247px;
+  margin-bottom: 2rem;
+}
+
+.preview-image-border {
+  border-radius: 10px;
+}
+
+.label-media {
+ cursor: pointer;
+}
+
+.input-media {
+  display: none;
 }
 
 .main-actions{
   display: flex;
   justify-content: space-between;
-  width: 255%;
   align-items: center;
- 
+  width: 255%;
 }
 
 .main-action-img {

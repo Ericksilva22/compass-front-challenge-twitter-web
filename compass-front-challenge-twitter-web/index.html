@@ -96,15 +96,24 @@
           <form class="main__formulario">
             <input id="post_input" type="text" placeholder="What's happening?">
           </form>
+
+          <div id="preview-image">
+            
+          </div>
+        
           <div class="main-actions">
             <div class="main-action-img">
-              <img src="./public/images/icon media.svg" alt="media icon">
+              <label class="label-media">
+                <input class="input-media" type="file" accept="image/*">
+                <img src="./public/images/icon media.svg" alt="media icon">
+              </label>
+              
               <img src="./public/images/icon_gif.svg" alt="Gif icon">
               <img src="./public/images/icon_poll.svg" alt="Poll icon">
               <img src="./public/images/Icon_emoji.svg" alt="Emoji icon">
               <img src="./public/images/icon_schedule.svg" alt="schedule icon">
             </div>
-            <button class="main-form-button">Tweet</button>
+            <button id="btn-tweet-post" class="main-form-button">Tweet</button>
           </div>
         </div>
       </section>
