@@ -549,6 +549,8 @@
 
 /* Stories */
 
+
+
 /* button */
 
 .primary {
@@ -591,6 +593,16 @@
   text-align: center;
   border-radius: 9999px;
   cursor: pointer;
+}
+
+/* Profile */
+
+.aside-profile-stories{
+  display: flex;
+  margin-top: 4rem;
+  align-items: center;
+  width: 255px;
+  margin-left: 2rem;
 }
 
 /* header */
