@@ -593,6 +593,13 @@
   cursor: pointer;
 }
 
+/*  input */
+
+.tweet-input-stories{
+  width: 20%;
+  display: flex;
+}
+
 /* news */
 
 .section-news-width{
