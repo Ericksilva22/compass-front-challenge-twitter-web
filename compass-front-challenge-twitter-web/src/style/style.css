@@ -605,6 +605,17 @@
   margin-left: 2rem;
 }
 
+/* Avatar */
+
+.avatar-small{
+  border-radius: 100%;
+}
+
+.avatar-medium{
+  border-radius: 100%;
+  width: 7%;
+}
+
 /* header */
 
 .main__header-stories{
