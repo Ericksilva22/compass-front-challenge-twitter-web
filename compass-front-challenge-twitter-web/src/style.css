@@ -137,7 +137,7 @@
 .form-tweet{
   display: flex;
   flex-direction: column;
-
+  
 }
 
 .main__formulario input{
@@ -212,6 +212,7 @@
 .container-posts{
   display: flex;
   flex-direction: column-reverse;
+  overflow-y: auto;
 }
 
 .section-post {
@@ -282,19 +283,32 @@
 
 .post-actions {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  margin-left: -3rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  width: 80%;
 }
 
 .post-actions-itens {
   display: flex;
 }
 
+.color-like{
+  color: #F4245E;
+}
+
 .post-actions-itens img {
   margin-right: 1rem;
+}
+
+.icon_like {
+  width: 9%;
+  margin-left: 4rem;
+}
+
+.icon_retweet{
+  margin-left: 4rem;
 }
 
 .post-actions-itens p {
@@ -303,6 +317,9 @@
   font-weight: 500;
   font-size: 13px;
   line-height: 16px;
+}
+
+.post-actions-color {
   color: #5B7083;
 }
 

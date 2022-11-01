@@ -51,6 +51,7 @@ export function createPost(text_written: string, img_tweet:HTMLElement):void {
     //add comment icon
     const div_post_itens_comment = document.createElement("div"); //create div
     div_post_itens_comment.classList.add("post-actions-itens");
+    div_post_itens_comment.classList.add("post-actions-color");
 
     const icon_comment = document.createElement("img"); //create img
     icon_comment.src = "./public/images/post_comment.svg";
@@ -64,11 +65,13 @@ export function createPost(text_written: string, img_tweet:HTMLElement):void {
     div_post_actions.appendChild(div_post_itens_comment);
 
 
-     //add comment retweet
+     //add retweet icon
      const div_post_itens_retweet = document.createElement("div"); //create div
      div_post_itens_retweet.classList.add("post-actions-itens");
+     div_post_itens_retweet.classList.add("post-actions-color");
 
      const icon_retweet = document.createElement("img"); //create img
+     icon_retweet.classList.add("icon_retweet");
      icon_retweet.src = "./public/images/post_retweet.svg";
  
      const p_itens_retweet = document.createElement("p"); // create text
@@ -80,12 +83,15 @@ export function createPost(text_written: string, img_tweet:HTMLElement):void {
      div_post_actions.appendChild(div_post_itens_retweet);
 
     
-    //add comment like
+    //add like icon
     const div_post_itens_like = document.createElement("div"); //create div
     div_post_itens_like.classList.add("post-actions-itens");
+    div_post_itens_like.classList.add("post-actions-color");
 
     const icon_like = document.createElement("img"); //create img
-    icon_like.src = "./public/images/post_like.svg";
+    icon_like.classList.add("icon_like");
+    icon_like.src = "./public/images/liketweet.JPG";
+    
 
     const p_itens_like = document.createElement("p"); // create text
     p_itens_like.innerHTML = "0";
@@ -95,9 +101,10 @@ export function createPost(text_written: string, img_tweet:HTMLElement):void {
 
     div_post_actions.appendChild(div_post_itens_like);
 
-    //add comment share
+    //add share icon
     const div_post_itens_share = document.createElement("div"); //create div
     div_post_itens_share.classList.add("post-actions-itens");
+    div_post_itens_share.classList.add("post-actions-color");
 
     const icon_share = document.createElement("img"); //create img
     icon_share.src = "./public/images/post_share.svg";
