@@ -15,6 +15,12 @@ The project corresponds to the twitter feed page and allows you to dynamically a
 🔑 mandatory requirements: 
 
 * Development: html, css (sass), Typescript and storybook
+
+🔑 instructions:
+
+* Run Project: cd compass-front-challenge-twitter-web -> npm run dev
+
+* Run storybook: use the command 'npm run storybook' in the root folder
  
 :point_down: Feed Page image:
 
