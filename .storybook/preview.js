@@ -1,4 +1,4 @@
-import '../compass-front-challenge-twitter-web/src/style.css'
+import '../compass-front-challenge-twitter-web/src/style/style.css'
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },

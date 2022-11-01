@@ -9,7 +9,7 @@ const Template: StoryFn = () => {
         `
         <form>
             <input type="search" class="search" placeholder="Search Twitter">
-            <img class="search-icon" src="./public/images/search.svg" alt="search icon">
+            <img class="search-icon" src="/images/search.svg" alt="search icon">
         </form>
          `
   )

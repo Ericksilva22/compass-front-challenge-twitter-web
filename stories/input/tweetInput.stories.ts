@@ -9,7 +9,7 @@ const Template: StoryFn = () => {
         `
             <figure>
             <a href="https://github.com/twitter-web">
-                <img class="main-profile-icon" src="./public/images/Profile Picture.svg" alt="Profile picture">
+                <img class="main-profile-icon" src="/images/Profile Picture.svg" alt="Profile picture">
             </a>
             </figure>
             <div class="form-tweet">
@@ -25,13 +25,13 @@ const Template: StoryFn = () => {
                 <div class="main-action-img">
                 <label class="label-media">
                     <input class="input-media" type="file" accept="image/*">
-                    <img src="./public/images/icon media.svg" alt="media icon">
+                    <img src="/images/icon media.svg" alt="media icon">
                 </label>
                 
-                <img src="./public/images/icon_gif.svg" alt="Gif icon">
-                <img src="./public/images/icon_poll.svg" alt="Poll icon">
-                <img src="./public/images/Icon_emoji.svg" alt="Emoji icon">
-                <img src="./public/images/icon_schedule.svg" alt="schedule icon">
+                <img src="/images/icon_gif.svg" alt="Gif icon">
+                <img src="/images/icon_poll.svg" alt="Poll icon">
+                <img src="/images/Icon_emoji.svg" alt="Emoji icon">
+                <img src="/images/icon_schedule.svg" alt="schedule icon">
                 </div>
                 <button id="btn-tweet-post" class="main-form-button">Tweet</button>
             </div>
