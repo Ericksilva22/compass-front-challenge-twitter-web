@@ -593,6 +593,12 @@
   cursor: pointer;
 }
 
+/* header */
+
+.main__header-stories{
+  width: 40%;
+}
+
 /*  input */
 
 .tweet-input-stories{
