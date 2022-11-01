@@ -10,15 +10,15 @@ The project corresponds to the twitter feed page and allows you to dynamically a
 * Buttons should lead to page 404
 * Photos can be random
 * The page must have scroll in the middle column (2 or 3 more posts appear)
-* 380 coracters for text post and photo insert functionality Post time stamp
+* 380 caracters for text post and photo insert functionality Post time stamp
 
 🔑 mandatory requirements: 
 
 * Development: html, css (sass), Typescript and storybook
 
-🔑 instructions:
+:wrench: instructions:
 
-* Run Project: cd compass-front-challenge-twitter-web -> npm run dev
+* Run Project: 'cd compass-front-challenge-twitter-web' -> 'npm run dev'
 
 * Run storybook: use the command 'npm run storybook' in the root folder
  
