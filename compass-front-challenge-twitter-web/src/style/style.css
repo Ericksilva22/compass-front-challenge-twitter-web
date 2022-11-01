@@ -636,6 +636,10 @@
   display: flex;
 }
 
+.search-bar-stories{
+  width: 20%;
+}
+
 /* news */
 
 .section-news-width{

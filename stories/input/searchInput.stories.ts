@@ -7,7 +7,7 @@ export default {
 const Template: StoryFn = () => {
   return( 
         `
-        <form>
+        <form class="search-bar-stories">
             <input type="search" class="search" placeholder="Search Twitter">
             <img class="search-icon" src="/images/search.svg" alt="search icon">
         </form>
