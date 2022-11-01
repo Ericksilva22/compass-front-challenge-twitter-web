@@ -9,6 +9,6 @@ module.exports = {
     "@storybook/addon-interactions"
   ],
   "framework": "@storybook/html",
-  staticDirs: ['../public']
+  staticDirs: ['../public', '../compass-front-challenge-twitter-web/public']
 
 }
