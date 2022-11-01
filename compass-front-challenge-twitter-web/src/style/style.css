@@ -592,3 +592,14 @@
   border-radius: 9999px;
   cursor: pointer;
 }
+
+/* news */
+
+.section-news-width{
+  width: 30%;
+}
+
+#section-news-dark{
+  background: #1C2733;
+  border-radius: 16px;
+}
