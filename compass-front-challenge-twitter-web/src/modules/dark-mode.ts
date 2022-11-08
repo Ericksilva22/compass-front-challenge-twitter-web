@@ -36,8 +36,23 @@ export function darkMode(): void {
     const itens_side = document.querySelectorAll<HTMLElement>(".aside-menu-itens")!;
     const profile_side = document.querySelector<HTMLElement>(".aside-profile-text-a")!;
 
-    
+    // main - header
+    const header_title = document.querySelector<HTMLElement>("#header-title")!;
 
+    //main - border 
+    const mainFeed = document.querySelector<HTMLElement>(".main")!;
+    const mainFeed_header = document.querySelector<HTMLElement>(".main__header")!;
+    const spacer = document.querySelector<HTMLElement>(".spacer")!;
+    const section_post = document.querySelectorAll<HTMLElement>(".section-post")!;
+
+    //main - input
+    const post_input = document.querySelector<HTMLElement>("#post_input")!;
+
+    //main - tweets
+    const tweets_title = document.querySelectorAll<HTMLElement>(".section-post-title-h3")!;
+    const tweets_paragraph = document.querySelectorAll<HTMLElement>(".section-post-paragraph")!;
+    
+    
     icon_dark .addEventListener("click", function ():void{
 
         side_menu.classList.toggle('background-dark'); // change background color
@@ -74,6 +89,29 @@ export function darkMode(): void {
             
         }
 
-        profile_side.classList.toggle('aside-profile-color'); // change font color
+        profile_side.classList.toggle('dark-mode-color'); // change font color
+        header_title.classList.toggle('dark-mode-color'); // change font color
+
+        post_input.classList.toggle('background-dark'); // change background color
+
+        for( let i = 0; i < tweets_title.length; i++){
+            tweets_title[i].classList.toggle('section-post-title-h3'); // change font color 
+        }
+
+        for( let i = 0; i < tweets_paragraph.length; i++){
+            tweets_paragraph[i].classList.toggle('section-post-paragraph'); // change font color
+            
+        }
+
+        mainFeed.classList.toggle('main');
+        mainFeed_header.classList.toggle('main__header');
+        spacer.classList.toggle('spacer');
+
+        for( let i = 0; i < section_post.length; i++){
+            section_post[i].classList.toggle('section-post'); // change font color
+            
+        }
+
+        
     });
 }

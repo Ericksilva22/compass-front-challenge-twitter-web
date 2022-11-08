@@ -20,7 +20,7 @@
 
 .background-dark {
   background-color:#17202A;
- }
+}
 
  .display-none {
   display: none;
@@ -106,7 +106,7 @@
   color: #0F1419;
 }
 
-.aside-profile-color {
+.dark-mode-color {
   color: #FFFFFF;
 }
 
@@ -133,9 +133,21 @@
 
 /* main */
 
+.main-border-dark-mode {
+  border-left: 1px solid #3A444C;
+  border-right: 1px solid #3A444C;
+}
+
 .main{
   border-left: 1px solid #EBEEF0;
   border-right: 1px solid #EBEEF0;
+}
+
+.main__header-dark-mode {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  border-bottom: 1px solid #3A444C;
 }
 
 .main__header{
@@ -143,10 +155,9 @@
   justify-content: space-between;
   padding: 0.5rem;
   border-bottom: 1px solid #EBEEF0;
-  
 }
 
-.main__header h1 {
+.main__header h1, .main__header-dark-mode h1 {
   font-size: 19px;
   font-weight: 700;
   margin-left: 0.5rem;
@@ -240,6 +251,13 @@
   cursor: pointer;
 }
 
+.spacer-dark-mode {
+  border-top: 1px solid #3A444C;
+  background-color: #1C2733;
+  width: 100%;
+  height: 10px;
+}
+
 .spacer{
   width: 100%;
   height: 10px;
@@ -253,19 +271,34 @@
   overflow-y: auto;
 }
 
+.section-post-dark-mode {
+  border-top: 1px solid #3A444C;
+  display: flex;
+}
+
 .section-post {
   border-top: 1px solid #EBEEF0;
   display: flex;
-
 }
 
-.section-post figure {
+.section-post figure, .section-post-dark-mode figure {
   padding: 1rem;
 }
 
 .section-post-title {
   padding-top: 1rem;
   display: flex;
+}
+
+.dark-mode-color-h3 {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #FFFFFF;
 }
 
 .section-post-title-h3 {
@@ -299,6 +332,20 @@
   letter-spacing: 0em;
   text-align: left;
   color: #5B7083;
+}
+
+.dark-mode-color-p{
+  margin-top: 0.2rem;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+  margin-bottom: 1rem;
+  word-break: break-all;
+  margin-right: 1rem;
+  width: 509px;
 }
 
 .section-post-paragraph {
@@ -591,6 +638,8 @@
   cursor: pointer;
   
 }
+
+
 
 
 /* Stories */
