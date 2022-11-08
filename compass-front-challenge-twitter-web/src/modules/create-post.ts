@@ -126,5 +126,6 @@ export function createPost(text_written: string, img_tweet:HTMLElement):void {
     show_thread.appendChild(createAText);
 
     div_generic.appendChild(show_thread);
+
     
 }; 
