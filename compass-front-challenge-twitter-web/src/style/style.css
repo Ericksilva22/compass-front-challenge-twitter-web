@@ -16,8 +16,15 @@
   width: 30%;
   display: flex;
   flex-direction: column;
-  
 }
+
+.background-dark {
+  background-color:#17202A;
+ }
+
+ .display-none {
+  display: none;
+ }
 
 .aside-menu{
   margin-left: 20%;
@@ -26,10 +33,18 @@
   align-items: center;
 }
 
+.aside-font-dark {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
 .aside-font {
   font-weight: 700;
   font-size: 16px;
   line-height: 23px;
+  color: #0F1419;
 }
 
 .aside-font-home {
@@ -44,7 +59,6 @@
 .aside-menu-itens {
   margin-left: 1rem;
   text-decoration: none;
-  color: #0F1419;
 }
 
 .aside-menu-button{
@@ -92,6 +106,10 @@
   color: #0F1419;
 }
 
+.aside-profile-color {
+  color: #FFFFFF;
+}
+
 .aside-profile-text-a:hover{
   text-decoration: underline;
 }
@@ -132,6 +150,10 @@
   font-size: 19px;
   font-weight: 700;
   margin-left: 0.5rem;
+}
+
+#icon-dark-mode:hover {
+  cursor: pointer;
 }
 
 .main__section {
