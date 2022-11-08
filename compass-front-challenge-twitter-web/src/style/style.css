@@ -435,7 +435,17 @@
   margin-top: 1rem;
   padding-left: 2.5rem;
   outline-color: #1DA1F2;
-  
+}
+
+.search-dark-mode{
+  width: 310px;
+  height: 38px;
+  background: #283340;
+  border-radius: 99999px;
+  border: none;
+  margin-top: 1rem;
+  padding-left: 2.5rem;
+  outline-color: #1DA1F2;
 }
 
 .search::-webkit-input-placeholder{ /* Chrome/opera/Safari */
@@ -461,6 +471,11 @@
   border-radius: 16px;
 }
 
+.section-news-dark-mode {
+  background: #1C2733;
+  border-radius: 16px;
+}
+
 .section-news h2 {
   padding-top: 1rem;
   margin-top: 1rem;
@@ -475,11 +490,35 @@
  
 }
 
+.section-news-dark-mode h2 {
+  padding-top: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.014em;
+  text-align: left;
+  color: #FFFFFF;
+ 
+}
+
+
 .section-news-content, .follow-person{
   display: flex;
   justify-content: space-around;
   border-bottom: 1px solid #EBEEF0;
   border-top: 1px solid #EBEEF0;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.section-news-content-dark-mode, .follow-person-dark-mode{
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #3A444C;
+  border-top: 1px solid #3A444C;
   padding-bottom: 1rem;
   padding-top: 1rem;
 }
@@ -505,6 +544,16 @@
   padding: 0.2rem 1rem;
   text-decoration: none;
   color: #0F1419;
+}
+
+.news-text-dark-mode {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: left;
+  padding: 0.2rem 1rem;
+  text-decoration: none;
+  color: #FFFFFF;
 }
 
 .news-trending{
@@ -544,6 +593,14 @@
   color: #0F1419;
 }
 
+.follow-data-a-dark-mode{
+  margin-bottom: -0.2rem;
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
 .follow-data-a:active{
   text-decoration: none;
 }
@@ -562,6 +619,18 @@
   height: 30px;
   color: #1DA1F2;
   background: #F7F9FA;
+  border: 1px solid #1DA1F2;
+  border-radius: 9999px;
+  cursor: pointer;
+}
+
+.btn-follow-dark-mode {
+  font-weight: 700;
+  font-size: 13px;
+  width: 75px;
+  height: 30px;
+  color: #1DA1F2;
+  background: #1C2733;
   border: 1px solid #1DA1F2;
   border-radius: 9999px;
   cursor: pointer;

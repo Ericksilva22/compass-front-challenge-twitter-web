@@ -51,6 +51,17 @@ export function darkMode(): void {
     //main - tweets
     const tweets_title = document.querySelectorAll<HTMLElement>(".section-post-title-h3")!;
     const tweets_paragraph = document.querySelectorAll<HTMLElement>(".section-post-paragraph")!;
+
+    //side column - search
+    const search_input = document.querySelector<HTMLElement>(".search")!;
+
+    //side column - news
+    const section_news = document.querySelectorAll<HTMLElement>(".section-news")!;
+    const news_text = document.querySelectorAll<HTMLElement>(".news-text")!;
+    const section_news_contetent = document.querySelectorAll<HTMLElement>(".section-news-content")!;
+    const follow_person = document.querySelectorAll<HTMLElement>(".follow-person")!;
+    const follow_link = document.querySelectorAll<HTMLElement>(".follow-data-a")!;
+    const button_follow = document.querySelectorAll<HTMLElement>(".btn-follow")!;
     
     
     icon_dark .addEventListener("click", function ():void{
@@ -111,6 +122,32 @@ export function darkMode(): void {
             section_post[i].classList.toggle('section-post'); // change font color
             
         }
+
+        search_input.classList.toggle('search-dark-mode');
+
+        for( let i = 0; i < section_news.length; i++){
+            section_news[i].classList.toggle('section-news-dark-mode');
+        }
+
+        for( let i = 0; i < news_text.length; i++){
+            news_text[i].classList.toggle('news-text-dark-mode');
+        }
+
+        for( let i = 0; i < section_news_contetent.length; i++){
+            section_news_contetent[i].classList.toggle('section-news-content-dark-mode');
+        } 
+
+        for( let i = 0; i < follow_person.length; i++){
+            follow_person[i].classList.toggle('follow-person-dark-mode');
+        } 
+
+        for( let i = 0; i < follow_link.length; i++){
+            follow_link[i].classList.toggle('follow-data-a-dark-mode');
+        } 
+
+        for( let i = 0; i < button_follow.length; i++){
+            button_follow[i].classList.toggle('btn-follow-dark-mode');
+        } 
 
         
     });
