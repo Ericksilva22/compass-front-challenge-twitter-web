@@ -97,6 +97,7 @@ export function createPost(text_written: string, img_tweet:HTMLElement):void {
     
 
     const p_itens_like = document.createElement("p"); // create text
+    p_itens_like.classList.add("content_like_new");
     p_itens_like.innerHTML = "0";
 
     div_post_itens_like.appendChild(icon_like); //add img for div
