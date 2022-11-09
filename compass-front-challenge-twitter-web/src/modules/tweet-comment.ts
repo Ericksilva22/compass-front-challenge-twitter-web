@@ -44,5 +44,30 @@ export function commentPost(): void {
             button_modal.style.opacity = '0.5';
         }
     });
+
+
+    // comment to new posts
+    
+    document.addEventListener("click", function(e:Event):void{
+
+        const elementTarget = e.target as HTMLImageElement;
+        const elementTextComment = document.querySelector<HTMLParagraphElement>(".content_comment_new")!;
+
+        if (elementTarget.classList.contains("post-comment-icon-new")){
+
+            modal_comment.classList.toggle('modal-comment-opacity');
+            fade.classList.toggle('display-none');
+            
+            button_modal.addEventListener("click", function():void{
+    
+                modal_comment.classList.toggle('modal-comment-opacity');
+                fade.classList.toggle('display-none');
+                elementTextComment.innerHTML = "1";
+                modal_input.value = '';
+            
+            })
+        } 
+       
+    })
   
 }

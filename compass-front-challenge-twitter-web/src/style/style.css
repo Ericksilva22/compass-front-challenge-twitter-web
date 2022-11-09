@@ -391,6 +391,10 @@
   cursor: pointer;
 }
 
+.post-comment-icon-new {
+  cursor: pointer;
+}
+
 .fade {
   position: fixed;
   top:0;

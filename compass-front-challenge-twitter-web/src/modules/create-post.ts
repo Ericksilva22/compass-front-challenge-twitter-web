@@ -58,8 +58,10 @@ export function createPost(text_written: string, img_tweet:HTMLElement):void {
 
     const icon_comment = document.createElement("img"); //create img
     icon_comment.src = "./public/images/post_comment.svg";
+    icon_comment.classList.add("post-comment-icon-new");
 
     const p_itens_comment = document.createElement("p"); // create text
+    p_itens_comment.classList.add("content_comment_new");
     p_itens_comment.innerHTML = "0";
 
     div_post_itens_comment.appendChild(icon_comment); //add img for div
