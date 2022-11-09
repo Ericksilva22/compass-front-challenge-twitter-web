@@ -91,6 +91,43 @@
      </aside>
 
      <main class="main main-border-dark-mode">
+
+      <div class="fade display-none"></div>
+      <div class="modal-comment modal-comment-opacity">
+        <img class="modal-close" src="/images/modal_close.png" >
+        <div class="modal-reply">
+          <figure>
+            <a href="https://github.com/twitter-web">
+              <img class="main-profile-icon" src="/images/Profile Picture.svg" alt="Profile picture">
+            </a>
+          </figure>
+          <div class="form-tweet">
+            <form class="main__formulario">
+              <input id="post_input" class="modal_input post_input" type="textarea" maxlength="380" placeholder="tweet your reply">
+            </form>
+  
+            <div id="preview-image">
+              
+            </div>
+          
+            <div class="main-actions">
+              <div class="main-action-img">
+                <label class="label-media">
+                  <input class="input-media" type="file" accept="image/*">
+                  <img src="/images/icon media.svg" alt="media icon">
+                </label>
+                
+                <img src="/images/icon_gif.svg" alt="Gif icon">
+                <img src="/images/icon_poll.svg" alt="Poll icon">
+                <img src="/images/Icon_emoji.svg" alt="Emoji icon">
+                <img src="/images/icon_schedule.svg" alt="schedule icon">
+              </div>
+              <button class="main-form-button button-modal">Reply</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <header class="main__header main__header-dark-mode">
         <h1 id="header-title">Home</h1>
         <img id="icon-dark-mode" src="/images/icon_dark_mode.svg" alt="Icon dark mode">
@@ -103,7 +140,7 @@
         </figure>
         <div class="form-tweet">
           <form class="main__formulario">
-            <input id="post_input" type="textarea" maxlength="380" placeholder="What's happening?">
+            <input id="post_input" class="post_input" type="textarea" maxlength="380" placeholder="What's happening?">
           </form>
 
           <div id="preview-image">
@@ -144,8 +181,8 @@
             <img class="section-post-img" src="/images/table.png">
             <div class="post-actions">
               <div class="post-actions-itens post-actions-color">
-                <img src="/images/post_comment.svg" alt="">
-                <p>6</p>
+                <img class="post-comment-icon" src="/images/post_comment.svg" alt="">
+                <p class="post-comment-content">61</p>
               </div>
   
               <div class="post-actions-itens post-actions-color">
@@ -183,8 +220,8 @@
             <img class="section-post-img" src="./public/images/Placehpolder.png">
             <div class="post-actions">
               <div class="post-actions-itens post-actions-color">
-                <img src="/images/post_comment.svg" alt="">
-                <p>61</p>
+                <img class="post-comment-icon" src="/images/post_comment.svg" alt="">
+                <p class="post-comment-content">61</p>
               </div>
   
               <div class="post-actions-itens post-actions-color">

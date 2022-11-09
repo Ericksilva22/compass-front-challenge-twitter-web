@@ -46,7 +46,7 @@ export function darkMode(): void {
     const section_post = document.querySelectorAll<HTMLElement>(".section-post")!;
 
     //main - input
-    const post_input = document.querySelector<HTMLElement>("#post_input")!;
+    const post_input = document.querySelectorAll<HTMLElement>(".post_input")!;
 
     //main - tweets
     const tweets_title = document.querySelectorAll<HTMLElement>(".section-post-title-h3")!;
@@ -104,7 +104,11 @@ export function darkMode(): void {
         profile_side.classList.toggle('dark-mode-color'); // change font color
         header_title.classList.toggle('dark-mode-color'); // change font color
 
-        post_input.classList.toggle('background-dark'); // change background color
+        
+        post_input[1].classList.toggle('background-dark'); // change background color
+       
+
+        
 
         for( let i = 0; i < tweets_title.length; i++){
             tweets_title[i].classList.toggle('section-post-title-h3'); // change font color 

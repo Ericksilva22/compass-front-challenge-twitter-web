@@ -387,6 +387,55 @@
   display: flex;
 }
 
+.post-comment-icon {
+  cursor: pointer;
+}
+
+.fade {
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 5;
+}
+
+.modal-comment {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  z-index: 10;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 15rem;
+  padding: 1.2rem;
+  border-radius: 0.5rem;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  transition: 0.4s;
+  opacity: 1;
+  pointer-events: all;
+}
+
+.modal-reply {
+  display: flex;
+  align-items: center;
+}
+
+.modal-comment-opacity {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.modal-close {
+  width: 3%;
+  cursor: pointer;
+}
+
 .color-like{
   color: #F4245E;
 }
