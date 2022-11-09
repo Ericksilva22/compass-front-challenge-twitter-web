@@ -176,13 +176,13 @@
   border-radius: 100%;
 }
 
-.form-tweet{
+.form-tweet, .form-tweet-modal{
   display: flex;
   flex-direction: column;
   
 }
 
-.main__formulario input{
+.main__formulario input, .main__formulario-modal input{
   width: 200%;
   height: 4rem;
   border: none;
@@ -190,19 +190,19 @@
   outline: 0;
 }
 
-.main__formulario input::-webkit-input-placeholder{ /* Chrome/opera/Safari */
+.main__formulario input::-webkit-input-placeholder, .main__formulario-modal input::-webkit-input-placeholder{ /* Chrome/opera/Safari */
   font-weight: 500;
   font-size: 20px;
   color: #5B7083;
 }
 
-.main__formulario input::-moz-placeholder{ /* Firefox 19+ */
+.main__formulario input::-moz-placeholder .main__formulario-modal input::-moz-placeholder{ /* Firefox 19+ */
   font-weight: 500;
   font-size: 1rem;
   color:#5B7083;
 }
 
-#preview-image {
+#preview-image, #preview-image-modal {
   display: none;
   width: 509px;
   height: 247px;
@@ -216,22 +216,22 @@
   height: 100%;
 }
 
-.label-media {
+.label-media, .label-media-modal {
  cursor: pointer;
 }
 
-.input-media {
+.input-media, .input-media-modal {
   display: none;
 }
 
-.main-actions{
+.main-actions, .main-actions-modal{
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 255%;
 }
 
-.main-action-img {
+.main-action-img, .main-action-img-modal {
   margin-left: 0.5rem;
   display: flex;
   width: 50%;
