@@ -371,7 +371,7 @@
   margin-right: 1rem;
   object-fit: cover;
   width: 97%;
-  height: 62%;
+  height: 58%;
 }
 
 .post-actions {
@@ -391,17 +391,22 @@
   color: #F4245E;
 }
 
+.post-like-icon {
+  cursor: pointer;
+}
+
 .post-actions-itens img {
   margin-right: 1rem;
 }
 
-.icon_like {
-  width: 9%;
-  margin-left: 4rem;
+.icon_like, .post-unlike-icon {
+  width: 25%;
+  margin-left: 1rem;
+  cursor: pointer;
 }
 
 .icon_retweet{
-  margin-left: 4rem;
+  margin-left: 1rem;
 }
 
 .post-actions-itens p {

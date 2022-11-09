@@ -93,7 +93,7 @@ export function createPost(text_written: string, img_tweet:HTMLElement):void {
 
     const icon_like = document.createElement("img"); //create img
     icon_like.classList.add("icon_like");
-    icon_like.src = "./public/images/liketweet.JPG";
+    icon_like.src = "./public/images/Icon_Like.svg";
     
 
     const p_itens_like = document.createElement("p"); // create text
@@ -124,6 +124,7 @@ export function createPost(text_written: string, img_tweet:HTMLElement):void {
 
     const show_thread = document.createElement("a");
     show_thread.classList.add("Show-thread");
+    show_thread.classList.add("Show-more");
     show_thread.setAttribute("href", "https://github.com/twitter-web");
     const createAText = document.createTextNode('show this thread');
     show_thread.appendChild(createAText);
