@@ -211,6 +211,9 @@
 
 .preview-image-border {
   border-radius: 10px;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
 .label-media {
@@ -366,6 +369,9 @@
 .section-post-img {
   border-radius: 10px;
   margin-right: 1rem;
+  object-fit: cover;
+  width: 97%;
+  height: 62%;
 }
 
 .post-actions {

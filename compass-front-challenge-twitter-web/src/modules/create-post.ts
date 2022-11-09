@@ -6,6 +6,8 @@ export function createPost(text_written: string, img_tweet:HTMLElement):void {
 
     const section_post = document.createElement("div");
     section_post.classList.add("section-post");
+    section_post.classList.add("section-post-dark-mode");
+    
     container_post.appendChild(section_post); // add post in main div
 
     const img_profile = document.createElement("img");
@@ -29,6 +31,7 @@ export function createPost(text_written: string, img_tweet:HTMLElement):void {
 
     userName.innerHTML = `Jerome Bell<span class="section-post-title-span">@afonsoinocente</span>`;
     userName.classList.add("section-post-title-h3");
+    userName.classList.add("dark-mode-color-h3");
 
     tweet_time.innerHTML = "1s";
     tweet_time.classList.add("section-post-time");

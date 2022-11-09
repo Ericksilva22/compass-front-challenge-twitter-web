@@ -59,6 +59,7 @@ export function darkMode(): void {
     const section_news = document.querySelectorAll<HTMLElement>(".section-news")!;
     const news_text = document.querySelectorAll<HTMLElement>(".news-text")!;
     const section_news_contetent = document.querySelectorAll<HTMLElement>(".section-news-content")!;
+    //side column - follow
     const follow_person = document.querySelectorAll<HTMLElement>(".follow-person")!;
     const follow_link = document.querySelectorAll<HTMLElement>(".follow-data-a")!;
     const button_follow = document.querySelectorAll<HTMLElement>(".btn-follow")!;
@@ -149,6 +150,6 @@ export function darkMode(): void {
             button_follow[i].classList.toggle('btn-follow-dark-mode');
         } 
 
-        
+
     });
 }
