@@ -182,7 +182,7 @@
   
 }
 
-.main__formulario input, .main__formulario-modal input{
+.main__form input, .main__form-modal input{
   width: 200%;
   height: 4rem;
   border: none;
@@ -190,13 +190,13 @@
   outline: 0;
 }
 
-.main__formulario input::-webkit-input-placeholder, .main__formulario-modal input::-webkit-input-placeholder{ /* Chrome/opera/Safari */
+.main__form input::-webkit-input-placeholder, .main__form-modal input::-webkit-input-placeholder{ /* Chrome/opera/Safari */
   font-weight: 500;
   font-size: 20px;
   color: #5B7083;
 }
 
-.main__formulario input::-moz-placeholder .main__formulario-modal input::-moz-placeholder{ /* Firefox 19+ */
+.main__form input::-moz-placeholder .main__form-modal input::-moz-placeholder{ /* Firefox 19+ */
   font-weight: 500;
   font-size: 1rem;
   color:#5B7083;
@@ -371,7 +371,7 @@
   margin-right: 1rem;
   object-fit: cover;
   width: 97%;
-  height: 58%;
+  height: 55%;
 }
 
 .post-actions {
